@@ -272,3 +272,23 @@ body.light-mode .navigation-buttons button:hover {
 .home-text{
   text-align: left;
 }
+
+.container{
+  margin-top: 100px;
+}
+
+/*Home Page Styling*/
+.about{
+  text-align: left;
+  padding: 200px 200px 0px 200px;
+}
+
+.about h1 {
+  padding-bottom: 50px;
+  font-size: 75px;
+}
+
+.about p{
+  font-size: larger;
+}
+
