@@ -277,14 +277,14 @@ body.light-mode .navigation-buttons button:hover {
   margin-top: 100px;
 }
 
-/*Home Page Styling*/
+/*About Page Styling*/
 .about{
   text-align: left;
-  padding: 200px 200px 0px 200px;
+  padding: 125px 350px 0px 350px;
 }
 
 .about h1 {
-  padding-bottom: 50px;
+  padding-bottom: 35px;
   font-size: 75px;
 }
 
