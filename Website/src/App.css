@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #252526;
   color: #f1f1f1;
   margin: 0;
@@ -38,7 +38,7 @@ nav {
 
 /* Dark Mode Navbar */
 .navbar.dark-mode {
-  background-color: #d9d9d9;;
+  background-color: #d9d9d9;
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
 
@@ -147,7 +147,6 @@ body.light-mode .dark-mode-toggle::after {
   background-color: #007acc;
 }
 
-
 /* Page section styles */
 section {
   display: block;
@@ -159,7 +158,7 @@ section {
 
 /* Footer */
 footer {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   color: #000;
   text-align: center;
   position: fixed;
@@ -168,7 +167,7 @@ footer {
   height: 50px;
 }
 
-footer p{
+footer p {
   padding-top: 15px;
 }
 
@@ -195,7 +194,8 @@ body.light-mode footer {
 }
 
 /* Form Styling */
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -203,7 +203,7 @@ form input, form textarea {
 
 form button {
   padding: 10px 20px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   color: white;
   border: none;
   cursor: pointer;
@@ -269,26 +269,78 @@ body.light-mode .navigation-buttons button:hover {
 
 /*Home Page Styling*/
 
-.home-text{
+.home-text {
   text-align: left;
 }
 
-.container{
+.container {
   margin-top: 100px;
 }
 
 /*About Page Styling*/
-.about{
+.about {
   text-align: left;
-  padding: 125px 350px 0px 350px;
+  padding: 0px 350px 75px 350px;
 }
 
 .about h1 {
   padding-bottom: 35px;
-  font-size: 75px;
 }
 
-.about p{
+.about p {
   font-size: larger;
 }
 
+/*Experience Page Styling*/
+.Experience {
+  text-align: left;
+  padding: 0px 350px 75px 350px;
+}
+.Experience h1 {
+  padding-bottom: 35px;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.card {
+  height: 100%; 
+  display: flex; 
+  flex-direction: column;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover; 
+}
+
+.card-body {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body h5 {
+  margin-bottom: 10px; 
+}
+
+.card-body p {
+  flex-grow: 1; 
+}
+
+.card-body .btn {
+  align-self: center;
+  margin-top: auto; 
+}
+
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
