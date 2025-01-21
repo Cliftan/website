@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CliftonImage from '../assets/Clifton.jpg'
+import CliftonImage from '../assets/Clifton.jpg';
 
 const Home = () => {
   return (
